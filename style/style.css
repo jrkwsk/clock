@@ -1,7 +1,7 @@
 body {
-    background: rgb(238,174,202);
-background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
-    
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+
 }
 
 div.clock {
@@ -20,15 +20,16 @@ div.hand {
     height: 2px;
     background: white;
     top: 50%;
-    transform-origin: 100%; /*obraca się na końcu*/
+    transform-origin: 100%;
+    /*obraca się na końcu*/
     transform: rotate(90deg);
     transition: all 0.05s;
     transition-timing-function: cubic-bezier(0.42, 0, 0.07, 1.37);
 }
 
 div.hour-hand {
-        height: 5px;
-    }
+    height: 5px;
+}
 
 div.sec-hand {
     height: 1px;
@@ -37,6 +38,15 @@ div.sec-hand {
 div.clock-face {
     position: relative;
     width: 100%;
-    height: 100%;    
+    height: 100%;
 }
 
+div.timeinput {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Indie Flower', cursive;
+    font-size: 3rem;
+
+}
